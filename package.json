@@ -1,0 +1,14 @@
+{
+  "name": "js-course",
+  "version": "0.0.1",
+  "description": "start learning 25.03.2023",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anton Tsvil",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  }
+}
