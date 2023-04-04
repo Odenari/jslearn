@@ -1,3 +1,4 @@
+'use strict';
 // const n = 'James';
 
 // const person = {first: n};
@@ -160,6 +161,56 @@
 
 // * Напишите функцию, которая принимает в себя 4 числа и возвращает самое большее из них. Если один из аргументов не является числом или их меньше 4 - возвращается 0. Дробные числа разрешены.
 
-function findMaxNumber(a, b, c, d) {
-	
-}
+// function findMaxNumber(a, b ,c, d) {
+
+// 	if (typeof(a) !== 'number' ||
+//         typeof(b) !== 'number' ||
+//         typeof(c) !== 'number' ||
+//         typeof(d) !== 'number') {
+// 		return 0;
+// 	} else {
+// 		return Math.max(a, b ,c, d);
+// 	}
+// }
+
+// findMaxNumber(0, 234, 2343, 123213234);
+
+// function fib(num) {
+// 	let res = '';
+// 	let x1 = 1;
+// 	let x2 = 1;
+// 	let sum;
+// 	if(isNaN(num)) {
+// 		return res;
+// 	} else if ( num == 1) {
+// 		return res = `0 ${num}`;
+// 	} else if ( num == 2) {
+// 		return res = `${x1} ${x2} ${num}`;``
+// 	}
+// 	for (let i = 2; i <= num; i++) {
+// 		sum = x1 + x2;
+// 		x1 = x2;
+// 		res += `${x1} $`;
+// 	}
+// }
+// fib(2);
+//! Fibonacci!!!
+// const fib = num => {
+// 	let prev = 0, next = 1, temp, res = `${prev} ${next}`;
+// 	if (typeof(num) !== 'number' || num <= 0 || !Number.isInteger(num)) {
+// 		return '';
+// 	}
+// 	if (num === 1) {
+// 		return res = `${prev}`;
+// 	}
+// 	for(let i = 2; i < num; i++){
+// 		temp = next;
+// 		next = prev + next;
+// 		prev = temp;
+// 		res += ` ${next}`;
+// 	}
+// 	console.log(res);
+// 	return res;
+// };
+// fib(4);
+
