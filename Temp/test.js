@@ -214,3 +214,23 @@
 // };
 // fib(4);
 
+function createCounter() {
+	let counter = 0;
+	const myFunction = function() {
+		return ++counter;
+	};
+	return myFunction;
+}
+
+const increment = createCounter();
+
+let c1 = increment();
+let c2 = increment();
+let c3 = increment();
+
+for (let i = 1; i < 5; i++) {
+	console.log(i + 1);
+}
+
+let a = '$9';
+console.log(a.slice(1));
